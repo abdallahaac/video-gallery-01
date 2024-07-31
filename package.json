@@ -1,0 +1,31 @@
+{
+  "name": "video_wall",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "package": "npm run generate && cd dist && tar.exe -a -c -f ../video_wall_%date%.zip * && echo packages created!"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.28",
+    "@fortawesome/free-regular-svg-icons": "^5.13.0",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "@fortawesome/vue-fontawesome": "^0.1.10",
+    "@nuxtjs/axios": "^5.12.2",
+    "bootstrap": "^4.5.2",
+    "bootstrap-vue": "^2.16.0",
+    "core-js": "^3.6.5",
+    "nuxt": "^2.14.5",
+    "nuxt-i18n": "^6.13.1",
+    "vue-i18n": "^8.18.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/style-resources": "^1.2.0",
+    "sass": "^1.49.0",
+    "sass-loader": "^10.2.1",
+    "webpack": "^4.46.0"
+  }
+}
